@@ -8,6 +8,7 @@ LWin & Space:: CapsLock ; 캡스락 대체키
 ;***************************************
 ;   HOME, END, PGUP, PGDN 설정
 ;***************************************
+#if fn
 `;::Send, {Home} ; HOME
 '::Send, {End} ; END
 q::Send, {PgUp} ; PageUp
