@@ -20,6 +20,12 @@ e::Send, {PgDn} ; PageDown
 +q::Send, {ShiftDown}{PgUp} ; PageUp
 +e::Send, {ShiftDown}{PgDn} ; PageDown
 
+; Alt 조합
+!`;::Send, {AltDown}{Home} ; HOME
+!'::Send, {AltDown}{End} ; END
+!q::Send, {AltDown}{PgUp} ; PageUp
+!e::Send, {AltDown}{PgDn} ; PageDown
+
 ;***************************************
 ;   Insert, Delete 설정
 ;***************************************
